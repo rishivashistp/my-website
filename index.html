@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishi Vashist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lora&family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0; padding: 0;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      height: 100vh; background-color: #f5f0e1;
+      font-family: 'Open Sans', sans-serif;
+      color: #4e342e;
+      text-align: center;
+    }
+
+    .profile {
+      display: flex; flex-direction: column; align-items: center;
+    }
+
+    .profile img {
+      width: 200px; height: 250px;
+      border-radius: 50% / 40%;
+      border: 4px solid #6d4c41;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+
+    .circles {
+      display: flex; gap: 40px;
+      margin-top: 40px;
+    }
+
+    .circle {
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      background-color: #6d4c41;
+      color: #fff8e1;
+      display: flex; justify-content: center; align-items: center;
+      font-size: 1.2em;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .circle:hover {
+      background-color: #4e342e;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <img src="D:\RISHI\rishi.jpeg" alt="Profile">
+    <h1>Rishi Vashist</h1>
+  </div>
+
+  <div class="circles">
+    <a href="profession.html" class="circle">Profession</a>
+    <a href="passion.html" class="circle">Passion</a>
+  </div>
+</body>
+</html>
